@@ -1,0 +1,223 @@
+/*--------------- CONFIGURAÇÕES GERAIS ----------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c2c3c4;
+    
+
+
+}
+
+h1{
+    font-size: 3em;
+}
+
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase; 
+    margin: 30px 0 0 0;
+    
+}
+
+p{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+container{
+    padding: 70px 0;
+}
+
+*/
+
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+
+    background-color: #00e676;
+    color: #fff;
+    border-radius: 50%;
+    
+    font-size: 2em;
+
+    text-align: center;
+    line-height: 60px;
+}
+
+.whatsapp-link:hover{
+    color: #fff;
+}
+
+
+/*--------------- BARRA SUPERIOR COM TELEFONE --------------*/
+#contato{
+    color: #fff;
+    
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    
+    background-color: #ea1919;
+    
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra-contato{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.telefone-icone{
+    width: 1.5em;
+    
+    height: 1.5em;
+    margin-right: 10px;
+
+    
+
+}
+
+
+
+/*------------------------------- LOGOMARCA E MENU ITENS -----------------------------*/
+
+.navbar-expand-lg{
+    margin-top: 42px;
+    box-shadow: 0px 1px 5px #cccccc;
+    
+}
+
+.navbar-brand{
+    
+    height: 100px;      /*posso setar o tamanho do menu nessa classe*/
+}
+
+
+#navbar-links a{
+    font-weight: bold;
+    color: #000;
+}
+
+#navbar-links a:hover{
+    color: #e73638;
+    /*border-bottom: solid 1.9px #e73638;*/
+}
+
+
+
+
+
+
+
+/* ----------------------------------- CARROSSEL ----------------------------------*/
+.container-fluid{
+    padding: 0px;
+    margin: 137px 0 0 0;
+
+}
+
+.carousel-inner, 
+.carousel-item, 
+.carousel-control-prev .carousel-control-prev-icon{
+    
+    height: 78vh; /*Carousel ajustado para 78% da tela*/
+    
+}
+
+@media (max-width: 889px){
+    
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-prev-icon{
+        height: auto;
+    }
+    
+}
+
+/*----------------------------------- SERVIÇOS ----------------------------------*/
+
+
+.servicos{
+    margin-top: 30px;
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 15px 0;
+    
+}
+
+.icone img{
+    width: 5rem;
+    
+}
+
+.card{
+    width: 18rem; 
+    border: 3px solid red; 
+    margin-bottom: 50px;
+    border-radius: 10%;
+
+}
+
+
+/*---------------------- A EMPRESA -----------------------*/
+.empresa{
+    background-color: #e73638;
+    height: 20rem;
+    color: #000;
+
+    
+}
+
+.titulo_empresa{
+    padding: 30px 0 15px 0;
+}
+
+.empresa p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+
+/*--------------------- CONTATO --------------------*/
+
+footer{
+    background-color: #343746;
+    color: #ccc;
+}
+
+.titulo_contato{
+    padding: 0px 0 30px 0;
+
+}
+
+.title_icone{
+    margin: 0 0 0 0
+}
+.icone_footer{
+    width: 2em;
+    margin: 0.5em;
+}
+
+
+
+

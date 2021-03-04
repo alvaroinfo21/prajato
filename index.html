@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <title>PRAJATO Mudanças</title>
+    
+    <!--BOOTSTRAP e FOLHA DE ESTILO-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/f30b52dc90.js" crossorigin="anonymous"></script>
+
+    
+    
+</head>
+<body>
+
+  <header>
+
+    <!----------------------------- BARRA SUPERIOR COM TELEFONE ------------------------------------>
+    <nav id="contato" class="navbar navbar-expand-lg shadow-none fixed-top">   
+        
+        <img class="telefone-icone" src="icones/telefone.svg" alt="telefone de contato">   
+        
+        <p>LIGUE (85) 99628-1660 </p>
+        
+
+        
+      </div>    
+
+    </nav>
+      
+
+    
+
+    <!--------------------------------- LOGOMARCA E MENU ITENS ------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fafafa;">
+      
+      <div class="container">
+
+        <!--NOME DO PROJETO, PRODUTO OU COMPANHIA-->
+        <a id="area-inicio" class="navbar-brand">
+            <!--<h1>PRA<span class="jato">JATO</span></h1>-->
+            <img src="img\prajato-logo1.jpeg" alt="Logomarca da Prajato">
+        </a>
+
+        <!--TRANSFORMA O MENU ITENS EM UM MENU HAMBURGER QUANDO ACESSADO NO MOBILE-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--MENU ITENS-->
+        <div id="navbar-links" class="collapse navbar-collapse justify-content-end">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#area-inicio">INÍCIO</a>
+              <a class="nav-item nav-link" href="#area-servicos">SERVIÇOS</a>
+              <a class="nav-item nav-link" href="#area-empresa">A EMPRESA</a>
+              <a class="nav-item nav-link" href="#area-localizacao">LOCALIZAÇÃO</a>
+              <a class="nav-item nav-link" href="#area-contato">CONTATO</a>
+            </div>
+        </div>
+
+      </div>
+    </nav>
+
+  </header>
+
+  <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5585989271119" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>  
+    <!---------------------------------- CONTEÚDO PRINCIPAL ------------------------------------->
+    <main>
+
+        <!--------------------------------- CAROUSEL ----------------------------------->
+        <div class="container-fluid">
+
+          <div id="mainSlider" class="carousel slide" data-ride="carousel">
+
+            <!-- INDICADORES -->
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+            </ol>
+
+            <!-- IMAGENS DO CAROUSEL-->
+            <div class="carousel-inner">
+
+              <!-- SLIDE 1-->
+              <div class="carousel-item active">
+                
+                <img class="d-block w-100" src="img\imagem11.jpg" alt="Segundo slide" style="opacity: 100%">
+                <!-- LEGENDA -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="titulo" style="text-shadow: 1px 1px 5px black; color: white; padding-bottom: 20px; font-size: 4rem; font-weight: bold;">
+                    Experiência de quem sabe
+                  </h3>
+                </div>
+                
+              </div>
+
+              
+              <!-- SLIDE 2 -->
+              <div class="carousel-item">
+                
+                <img class="d-block w-100" src="img/imagem33.jpg" alt="Terceiro slide">
+                <!-- LEGENDA -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="titulo" style="text-shadow: 1px 1px 5px black; color: white; padding-bottom: 20px; font-size: 4rem; font-weight: bold;">
+                    Embalamos tudo para você
+                  </h3>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <!-- BOTÕES IDA E VOLTA-->
+            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+
+          </div>
+
+        </div>
+
+        
+        <!---------------------------------------- SERVIÇOS ------------------------------------>
+        <h3 id="area-servicos" class="titulo">serviços</h3>
+
+        <div class="container servicos d-flex justify-content-around flex-wrap">
+          
+          <!-- RELÓGIO -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/relogio.svg" alt="Imagem de capa do card">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Horário de atendimento</h4>
+              <p class="card-text" style="text-align: center">Trabalhamos de segunda à sexta no horário comercial (8h - 18h). Inclusive sábados, domingos e feriados.</p>
+            </div>
+          </div>
+
+          <!-- CAMINHÃO -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/caminhao.svg" alt="Imagem de capa do card">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Mudanças e Transporte</h4>
+              <p class="card-text" style="text-align: center">Residencial, comercial e interestadual.</p>
+            </div>
+          </div>
+
+          <!-- CAIXA -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/caixa.svg" alt="Ícone de uma caixa">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Não cobramos pelas embalagens</h4>
+              <p class="card-text" style="text-align: center">Temos caixa de papelão, plástico bolha e fitas para embalar com cuidado todos os seus ítens.</p>
+            </div>
+          </div>
+
+          <!-- FERRAMENTAS -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/ferramentas.svg" alt="Ícone de ferramentas">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Desmontamos e Montamos os móveis</h4>
+              <p class="card-text" style="text-align: center">Nossos colaboradores estão qualificados para desmontar e montar toda a mobília.</p>
+            </div>
+          </div>
+
+          <!-- PESSOAL -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/pessoal.svg" alt="Imagem de capa do card">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Equipe preparada</h4>
+              <p class="card-text" style="text-align: center">A nossa equipe tem experiência e vai cuidar de tudo para melhor comodidade dos nossos clientes.</p>
+            </div>
+          </div>
+
+          <!-- CADEADO -->
+          <div class="card">
+            <div class="container icone">
+              <img src="icones/cadeado.svg" alt="Imagem de capa do card">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title" style="text-align: center; font-weight: bold">Temos parceria com guarda móveis</h4>
+              <p class="card-text" style="text-align: center">Se precisar temos parceria com serviço de guarda móveis para a sua melhor comodidade.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-------------------------------- A EMPRESA ------------------------------>
+        <div class="empresa">
+          <div class="container">
+            <h3 id="area-empresa" class=" titulo titulo_empresa" style="color: white">a empresa</h3>
+            <p style="color: white">Há dez anos no mercado, a PraJato hoje é uma das empresas mais respeitadas no ramo de mudanças e transportes no estado do Ceará. Nossos colaboradores estão prontos para ajudar os nossos clientes na organização e transporte dos seus móveis. Além da experiência contamos também com o apoio do guarda móveis parceiro para se necessário você poder armazenar seus bens.
+            </p>
+  
+  
+          </div>
+        </div>
+
+        <!-- MAPA DE LOCALIZAÇÃO-->
+        <section id="area-localizacao">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3450487363807!2d-38.49551688524101!3d-3.734767097282784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7487d0e8fb95b%3A0x4124e0a23d834e6e!2sAv.%20Dom%20Lu%C3%ADs%2C%20906%20-%20Meireles%2C%20Fortaleza%20-%20CE%2C%2060160-230!5e0!3m2!1spt-BR!2sbr!4v1608170206400!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+    </main>
+
+
+
+
+
+    <!---------------------- RODAPÉ DA PÁGINA ------------------->
+    <footer>
+      <div class="container">
+        <div class="row">
+          
+          <div id="area-contato" class="col-md-12">
+            <h3 class="titulo titulo_contato">contato</h3>
+          </div>
+
+          <div class="col-md-6">
+            
+            <!-- icone e endereço -->
+            <div class="d-flex justify-content-center align-items-center">
+
+              <img  class="icone_footer" src="icones/endereco.svg" alt="endereco">
+
+              <h4 class="title_icone">
+                Endereço
+              </h4>
+              
+            </div>
+            <ul style="list-style-type:none; padding-left: 0px; text-align: center">
+              <li>Rua Marechal Deodoro, 1384 - Benfica</li>
+              <li>Fortaleza - CE</li>
+              <li>CEP 60020-061</li>
+            </ul>
+            
+            <!-- icone e telefone de contato -->
+            <div class="d-flex justify-content-center align-items-center">
+              
+              <img class="icone_footer" src="icones/telefone.svg" alt="telefone">
+              <h4 class="title_icone"> 
+                Telefone
+              </h4>
+              
+            </div>
+            <p style="text-align: center">(85) 99628-1660 / (85) 98927-1119</p>
+            
+
+          </div>
+          <div class="col-md-6">
+
+            <!-- icone e email-->
+            <div class="d-flex justify-content-center align-items-center">
+              
+              <img class="icone_footer" src="icones/email.svg" alt="telefone">
+              <h4 class="title_icone"> 
+                Email
+              </h4>
+              
+            </div>
+            <p style="text-align: center">endereco@email.com.br</p>
+
+
+            <!-- icone e formas de pagamento-->
+            <div class="d-flex justify-content-center align-items-center">
+              
+              <img class="icone_footer" src="icones/cartao.svg" alt="telefone">
+              <h4 class="title_icone"> 
+                Formas de pagamento
+              </h4>
+              
+            </div>
+            <ul style="list-style-type:none; padding-left: 0px; text-align: center">
+              <li>Crédito</li>
+              <li>Débito</li>
+              <li>Em dinheiro</li>
+            </ul>
+              
+             
+
+          </div>
+
+        </div>
+      </div>
+      
+      <nav class="navbar navbar-expand-lg" style="box-shadow: 0px 0px 0px; background-color: black; opacity: 100%;">
+        <div class="container">
+          <p>Agradecimento pelas imagens</p>
+          <p>
+            <a style="font-size: 1rem" href="https://br.freepik.com/fotos/caixa">Caixa foto criado por kjpargeter - br.freepik.com</a>
+          </p>
+          <p>
+            <a href="https://www.pexels.com/pt-br/foto/anonimo-caixa-bau-arca-4246120/">Ketut Subiyanto</a>
+          </p>
+          <div>
+            <p>Desenvolvido por Álvaro do Nascimento</p>
+          </div>
+        </div>
+      </nav>
+
+      
+    </footer>
+
+    
+  <!--SCRIPT-->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  <script src="js\script.js"></script>
+</body>
+</html>
